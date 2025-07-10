@@ -3,30 +3,30 @@
     color: white;
     padding: 2px;
     border: 1px solid black;
+    margin: 10px;
 
-    width: 100%;
+    max-width: 400px
 }
 
 .callout img {
     float: right;
     border: 1px solid rgb(10, 10, 10);
-    background-color: rgb(238, 238, 243);
+    background-color: #bbb;
     margin: 15px;
-    width: 120px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding: 3px;
 }
 
 blockquote {
 
-    margin: 20px;
+    margin: 0px;
 
 }
 
 cite {
     display: block;
-    border-top: 10px;
-    padding-top: 5px;
+    border-top: 1px dotted #fff;
     text-align: right;
     font-size: large;
     margin-right: 15px;
