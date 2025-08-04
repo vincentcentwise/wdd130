@@ -50,6 +50,12 @@ article {
     text-decoration: none;
 }
 
+.map{
+    padding-top: 30px;
+    width: 840px;
+    height:450px ;
+}
+
 .hero {
     position: relative;
 }
@@ -145,6 +151,25 @@ h2 {
    
 }
 
+.center {
+  justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+   
+ 
+}  
+
+.col-md-4 {
+    border: 1px solid blue;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
 
 
 .hint {
@@ -174,6 +199,69 @@ h2 {
     padding-top: 40px;
 }
 
+form {
+  width: 840px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+  
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 2fr 1fr;
+  margin: 0.5rem 0;
+}
 
 /* article { 
 	margin: 1em auto;
