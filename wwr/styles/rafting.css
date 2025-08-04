@@ -262,6 +262,9 @@ button:hover {
   grid-template-columns: 2fr 1fr;
   margin: 0.5rem 0;
 }
+.wire {
+    padding-top: 50px;
+}
 
 /* article { 
 	margin: 1em auto;
