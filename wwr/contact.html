@@ -28,7 +28,7 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/12raff.jpg" alt="Water fall">
+            <img src="images/hero.jpg" alt="Water fall" class="jeg">
             <h1>CONTACT US </h1>
             <article>
 
@@ -39,10 +39,20 @@
         </div>
 
         <div class="like">
+             <h2> MEET OUR TEAM</h2>
             <div class="row">
-                <div><img src="images/female-employee.jpg" alt="" ><h4>employment</h4></div>
-                 <div><img src="images/male-employee.jpg" alt=""><h4>employment</h4></div>
-                   <div><img src="images/male-employee.jpg" alt=""><h4>employment</h4></div>
+                <div><img src="images/female-employee.jpg" alt="" style="border-radius: 10px;" >    
+                    <h4>Balogun Vincent</h4>
+                    <p>Lead Guide</p>
+                </div>
+                 <div><img src="images/male-employee.jpg" alt="" style="border-radius: 10px;">
+                    <h4>Balogun Vincent</h4>
+                   <p>Marketing manager</p>
+                </div>
+                   <div><img src="images/male-employee.jpg" alt="" style="border-radius: 10px;">
+                     <h4>Balogun Vincent</h4>
+                    <p>Officer</p>
+                </div>
 
             </div>
 
@@ -97,33 +107,39 @@
          </div>
 
         <div>
-            <form>
-  <fieldset>
-    <legend>Contact Information</legend>
-    <div class="form-item column2"><label for="fullname">Full Name:</label>
-    <input type="text" id="fullname" name="fullname"></div>
-    
-    <div  class="form-item column2"><label for="useremail">Email:</label>
-    <input type="email" id="useremail" name="useremail"></div>
-  </fieldset>
+           <form>
+            <fieldset>
+                <h2>Contact Form</h2>
+                
+                <div class="form-item">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="fullname" required>
+                </div>
 
-  <fieldset>
-  <legend>Questions</legend>
-  <div><input type="radio" id="General-Inquiry" name="Messages" value="General-Inquiry ">
-    <label for="General-Inquiry">General Inquiry</label>
-    <input type="radio" id="Reservation-Question" name="Messages" value="Reservation-Question ">
-    <label for="Reservation-Question">Reservation Question</label>
-    <input type="radio" id="Website-Suggestion" name="Messages" value="Website-Suggestion ">
-    <label for="Website-Suggestion">Website Suggestion</label>
-  </div>
-  <div class="column1"><label for="pet">Please subscribe me to the monthly newsletter</label>
-  <input type="checkbox" id="pet" name="pet"></div>
-  <label for="feedback">The Message:</label>
-  <textarea id="feedback" name="feedback" rows="4" placeholder="this is to ..........."></textarea>
-</fieldset>
-  <button type="submit">Submit</button>
+                <div class="form-item column">
+                    <label for="email">Useremail:</label>
+                    <input type="email" id="email" name="seremail" required>
+                </div>
 
-</form>
+                <h3>Purpose of Your Message:</h3>
+                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                <label for="general">General Inquiry</label><br>
+
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label><br>
+
+                <input type="radio" id="website" name="purpose" value="Website Suggestion">
+                <label for="website">Website Suggestion</label><br>
+            </fieldset>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+            <button type="submit">Send Message</button>
+        </form>
         </div>
 
 
@@ -135,13 +151,13 @@
         <p class="text"> © 2025 | WHITE WATER RAFFTING | VINCENT TAIYE BALOGUN | Lagos, Nigeria.</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
-                <img src="images/facebook1.webp" alt="Facebook">
+                <img src="images/facebook1.webp" alt="Facebook" width="20"  style="margin: 3px" >
             </a>
             <a href="https://twitter.com">
-                <img src="images/twitter1.webp" alt="Twitter">
+                <img src="images/twitter1.webp" alt="Twitter" width="20"  style="margin: 3px">
             </a>
             <a href="https://instagram.com">
-                <img src="images/instagram1.webp" alt="instagram">
+                <img src="images/instagram1.webp" alt="instagram" width="20" style="margin: 3px">
             </a>
             
         </nav>
